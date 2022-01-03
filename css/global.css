@@ -4,7 +4,9 @@ body {
   color: var(--cor-11);
 }
 h1,
-ul,
+h2,
+h3,
+h4 ul,
 p {
   margin: 0px;
 }
@@ -20,4 +22,7 @@ ul {
   margin: 0px;
   padding: 0px;
   list-style: none;
+}
+img[src$=".jpg"] {
+  border-radius: 4px;
 }
